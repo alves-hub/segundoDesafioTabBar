@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		7E3723A92BE96827001EBD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3723A82BE96827001EBD7E /* AppDelegate.swift */; };
 		7E3723AB2BE96827001EBD7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3723AA2BE96827001EBD7E /* SceneDelegate.swift */; };
-		7E3723AD2BE96827001EBD7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3723AC2BE96827001EBD7E /* ViewController.swift */; };
+		7E3723AD2BE96827001EBD7E /* UploadPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3723AC2BE96827001EBD7E /* UploadPhotos.swift */; };
 		7E3723B02BE96827001EBD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3723AE2BE96827001EBD7E /* Main.storyboard */; };
 		7E3723B22BE9682A001EBD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E3723B12BE9682A001EBD7E /* Assets.xcassets */; };
 		7E3723B52BE9682A001EBD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3723B32BE9682A001EBD7E /* LaunchScreen.storyboard */; };
+		7E3723BD2BE9CB63001EBD7E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3723BC2BE9CB63001EBD7E /* TabBarController.swift */; };
+		7E3723BF2BEC69F5001EBD7E /* Phones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3723BE2BEC69F5001EBD7E /* Phones.swift */; };
+		7E3723C12BEC6A2A001EBD7E /* Trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3723C02BEC6A2A001EBD7E /* Trash.swift */; };
+		7E3723C52BEC73AE001EBD7E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3723C32BEC73AE001EBD7E /* CustomTableViewCell.swift */; };
+		7E3723C62BEC73AE001EBD7E /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E3723C42BEC73AE001EBD7E /* CustomTableViewCell.xib */; };
+		7E3723C92C05F02D001EBD7E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3723C82C05F02D001EBD7E /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E3723A52BE96827001EBD7E /* segundoDesafioTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = segundoDesafioTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3723A82BE96827001EBD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E3723AA2BE96827001EBD7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E3723AC2BE96827001EBD7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E3723AC2BE96827001EBD7E /* UploadPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotos.swift; sourceTree = "<group>"; };
 		7E3723AF2BE96827001EBD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E3723B12BE9682A001EBD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E3723B42BE9682A001EBD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E3723B62BE9682A001EBD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3723BC2BE9CB63001EBD7E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7E3723BE2BEC69F5001EBD7E /* Phones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phones.swift; sourceTree = "<group>"; };
+		7E3723C02BEC6A2A001EBD7E /* Trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trash.swift; sourceTree = "<group>"; };
+		7E3723C32BEC73AE001EBD7E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		7E3723C42BEC73AE001EBD7E /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		7E3723C82C05F02D001EBD7E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,37 @@
 		7E3723A72BE96827001EBD7E /* segundoDesafioTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				7E3723C72C05F00B001EBD7E /* Model */,
+				7E3723C22BEC7370001EBD7E /* cell */,
 				7E3723A82BE96827001EBD7E /* AppDelegate.swift */,
 				7E3723AA2BE96827001EBD7E /* SceneDelegate.swift */,
-				7E3723AC2BE96827001EBD7E /* ViewController.swift */,
+				7E3723AC2BE96827001EBD7E /* UploadPhotos.swift */,
+				7E3723BE2BEC69F5001EBD7E /* Phones.swift */,
+				7E3723C02BEC6A2A001EBD7E /* Trash.swift */,
 				7E3723AE2BE96827001EBD7E /* Main.storyboard */,
 				7E3723B12BE9682A001EBD7E /* Assets.xcassets */,
 				7E3723B32BE9682A001EBD7E /* LaunchScreen.storyboard */,
 				7E3723B62BE9682A001EBD7E /* Info.plist */,
+				7E3723BC2BE9CB63001EBD7E /* TabBarController.swift */,
 			);
 			path = segundoDesafioTabBar;
+			sourceTree = "<group>";
+		};
+		7E3723C22BEC7370001EBD7E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				7E3723C32BEC73AE001EBD7E /* CustomTableViewCell.swift */,
+				7E3723C42BEC73AE001EBD7E /* CustomTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		7E3723C72C05F00B001EBD7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E3723C82C05F02D001EBD7E /* Profile.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +161,7 @@
 			files = (
 				7E3723B52BE9682A001EBD7E /* LaunchScreen.storyboard in Resources */,
 				7E3723B22BE9682A001EBD7E /* Assets.xcassets in Resources */,
+				7E3723C62BEC73AE001EBD7E /* CustomTableViewCell.xib in Resources */,
 				7E3723B02BE96827001EBD7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3723AD2BE96827001EBD7E /* ViewController.swift in Sources */,
+				7E3723C12BEC6A2A001EBD7E /* Trash.swift in Sources */,
+				7E3723C92C05F02D001EBD7E /* Profile.swift in Sources */,
+				7E3723AD2BE96827001EBD7E /* UploadPhotos.swift in Sources */,
+				7E3723BD2BE9CB63001EBD7E /* TabBarController.swift in Sources */,
+				7E3723C52BEC73AE001EBD7E /* CustomTableViewCell.swift in Sources */,
+				7E3723BF2BEC69F5001EBD7E /* Phones.swift in Sources */,
 				7E3723A92BE96827001EBD7E /* AppDelegate.swift in Sources */,
 				7E3723AB2BE96827001EBD7E /* SceneDelegate.swift in Sources */,
 			);
